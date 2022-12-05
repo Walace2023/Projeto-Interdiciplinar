@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Agendamento</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white" style="background: rgb(255,255,255);
+    background: linear-gradient(178deg, rgba(255,255,255,1) 11%, rgba(215,252,255,1) 95%, rgba(10,195,137,1) 100%);">
+        <div class="container-fluid">
+          <img src="img/logo1.png" style="width: 275px; height: 255px;" alt="" srcset="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-bold" aria-current="page" href="1-pesquisa.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Especialistas.html">Especialidade</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Registre-se
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="paciente.html">Paciente</a></li>
+                  <li><a class="dropdown-item" href="medico.html">Profissional</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">pesquisar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <main>
+        <div class="container-fluid  mb-5 w-75 justify-content-center">
+            
+                
+          <form action="" class="needs-validation" novalidate>
+            <h2 class="mb-5 mt-3" style="text-align: center">Agendamento</h2>
+            <div class="container">
+              <div class="d-flex justify-content-center">
+                <div class="card p-2 py-3 text-center" style= "width:400px">
+    
+                  <div class="img mb-2">
+  
+                    <img src="img/avatar.png" width="100" class="rounded-circle">
+                      
+                  </div>
+  
+                  <h5 class="mb-1">Anna Sthesia</h5>
+                  <small class="mb-1">Anestesista</small>
+
+                  <div class="d-none d-lg-block">
+                    <div id="map-container-google-1" class="z-depth-1-half map-container">
+                      <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                        style="border:0" allowfullscreen></iframe>
+                    </div>
+                  </div>
+
+                   
+
+
+                  <div class="ratings mt-2">
+          
+                  </div>
+                  <div class="mt-4 apointment">
+                  </div>
+  
+              </div>
+              </div>
+            </div>
+          <h6 class="card-title mb-3 mt-5">Esse agendamento é para:</h6>
+          <div class="container mb-2">
+            <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" required>  <label for="radio1">Eu</label>
+          </div>
+          <div class="container mb-2">
+            <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2" required>  <label for="radio2">Outra Pessoa</label>
+          </div>
+
+            <h6 class="card-title mb-3 mt-3">Tipo de Consulta:</h6>
+            
+            <div class="container mb-2">
+              <input type="radio" class="form-check-input" id="radio3" name="optradio2" value="option3" required>  <label for="radio3">Particular</label>
+            </div>
+            <div class="container mb-2">
+              <input type="radio" class="form-check-input" id="radio4" name="optradio2" value="option4" required>  <label for="radio4">Convênio</label>
+            </div>
+     
+                        <h6 class="information mt-4 mb-3">Por favor preencha as informações abaixo:</h6>
+                        <div class="row">
+                            <div class="col-sm-12 mb-3">
+                                <div class="form-group">
+                                  <label for="">Nome completo:</label>
+                                  <input class="form-control" type="text" style="border:none; border-bottom: 2px solid #48bbc6;"placeholder="Nome completo" required> <div class="invalid-feedback">Digite o nome completo</div></div>
+                                  
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 mb-3">
+                                <div class="form-group">
+                                  <label for="">Endereço:</label>
+                                    <div class="input-group"> <input class="form-control" type="text"style="border:none; border-bottom: 2px solid #48bbc6;" placeholder="Endereço" required> <div class="invalid-feedback">Digite o Endereço</div></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-12 mb-3">
+                              <div class="form-group">
+                                <label for="">Contato:</label>
+                                  <div class="input-group"> <input class="form-control" style="border:none; border-bottom: 2px solid #48bbc6;"type="text" placeholder="Contato" required> <div class="invalid-feedback">Digite um número de contato</div></div>
+                              </div>
+                          </div>
+                      </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                  <label for="">E-mail:</label>
+                                    <div class="input-group"> <input class="form-control"style="border:none; border-bottom: 2px solid #48bbc6;" type="email" placeholder="Email" required> <div class="invalid-feedback">Digite um E-mail válido</div></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-check" style="margin-top:14px;">
+                          <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+                          <label for="check1" class="form-check-label">Concordo em receber lembretes antes da consulta</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="check2" name="option1" value="something" checked required>
+                          <label for="check2" class="form-check-label">Declaro estar de acordo com as regras do protocolo COVID-19</label>
+                        </div>
+                        <div class="container mt-3">
+                          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#myModal" style="background-color:#6ca8da;">
+                            Agendar
+                          </button>
+                        </div>
+                        <div class="modal" id="myModal">
+                          <div class="modal-dialog">
+                            <div class="modal-content">                   
+                              <div class="modal-header">
+                                <h4 class="modal-title">Sua consulta foi agendada com sucesso!</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                              </div>
+                              <div class="modal-body">
+                                <div class="d-flex justify-content-center">
+                                  <p>(Nome do Paciente), seu agendamento para o dia XX/XX as XXh no Consultório X - telefone xx xxxx-xxx foi realizada com sucesso.
+Caso precise remarcar entre em contato conosco com antecendencia</p>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                  <img src="img/sucesso.png" style="width: 100px" alt="Sucesso">
+                                </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal"><a href="1-pesquisa.html" style="color: white; text-decoration: none;" >Voltar</a></button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                     </div>
+                    </form>
+        </div>
+    </main>
+   
+
+<div class="container-fluid">
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #48bbc6">
+    <div class="container p-4 pb-0">
+      <section class="">
+        <div class="row">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              QUEM SOMOS
+            </h6>
+            <p>
+              CONSULTÁGIL - Empresa de desenvolvimento de softwares na área da saúde.
+            </p>
+          </div>
+          <hr class="w-100 clearfix d-md-none" />
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold"></h6>
+            <p>
+              <a class="text-white">Termos e Condições</a>
+            </p>
+            <p>
+              <a class="text-white">Política de Privacidade</a>
+            </p>
+            <p>
+              <a class="text-white">Protocolo COVID 2022</a>
+            </p>
+          </div>
+          <hr class="w-100 clearfix d-md-none" />
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Links Úteis
+            </h6>
+            <p>
+              <a class="text-white" href="1-pesquisa.html">Página Inicial</a>
+            </p>
+            <p>
+              <a class="text-white" href="Especialistas.html">Especialidades</a>
+            </p>
+            <p>
+              <a class="text-white" href="medico.html">Registre-se como especialista</a>
+            </p>
+            <p>
+              <a class="text-white" href="paciente.html">Registre-se como paciente</a>
+            </p>
+            <p>
+              <a class="text-white">Ajuda</a>
+            </p>
+          </div>
+          <hr class="w-100 clearfix d-md-none" />
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contato</h6>
+            <p>Avenida Habib Gabriel, 1360 - Bairro Residencial Olívio Benassi -  Matão/SP - CEP 15990-539 </p>
+            <p>grupo4fatecmatao@gmail.com</p>
+            <p>(16) 3384-5847</p>
+          </div>
+        </div>
+      </section>
+      <hr class="my-3">
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <div class="p-3">
+              © 2022 Copyright:
+              <a class="text-white" href="1-pesquisa.html">ConsultÁgil</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </footer>
+</div>
+<script>
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+'use strict'
+
+// Fetch all the forms we want to apply custom Bootstrap validation styles to
+var forms = document.querySelectorAll('.needs-validation')
+
+// Loop over them and prevent submission
+Array.prototype.slice.call(forms)
+  .forEach(function (form) {
+    form.addEventListener('submit', function (event) {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+</script>
+  </body>    
+</html>

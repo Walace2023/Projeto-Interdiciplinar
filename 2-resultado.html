@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Resultado</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white" style="background: rgb(255,255,255);
+  background: linear-gradient(178deg, rgba(255,255,255,1) 11%, rgba(215,252,255,1) 95%, rgba(10,195,137,1) 100%);">
+      <div class="container-fluid">
+        <img src="img/logo1.png" style="width: 275px; height: 255px;" alt="" srcset="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-bold" aria-current="page" href="1-pesquisa.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Especialistas.html">Especialidade</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Registre-se
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="paciente.html">Paciente</a></li>
+                <li><a class="dropdown-item" href="medico.html">Profissional</a></li>
+                <li><hr class="dropdown-divider"></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">pesquisar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    
+
+    <main>
+    
+      <div class="container mt-5 mb-5">
+        <div class="d-flex flex-column">
+          <div class="d-flex justify-content-center">
+            <div class="card" style="width:600px">
+              <img class="card-img-top mt-3" style="width:100px; border-radius: 50%;" src="img/avatar.png" alt="Card image">
+              <div class="card-body">
+                <h4 class="card-title">Nome</h4>
+                <h5 class="card-text">Especialidade</h5>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <p class="card-text mt-5">Av. Habib Gabriel, 1360 - Jardim Buscardi, Matão - SP</p>
+              </div>
+            </div>
+            <div class="card" style="width:400px">
+              
+              <section class="h-100 d-flex align-items-center justify-content-center">
+                <a class="carousel-control-prev" href="#carouselCidades" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" style="background-color: black; " aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#carouselCidades" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" style="background-color: black;" aria-hidden="true"></span>
+                </a>
+                <div class="row ">
+      
+                  <div class="col-12 p-0">
+                    <div id="carouselCidades" data-interval="false" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carouselCidades" class="active"></li>
+                        <li data-target="#carouselCidades"></li>
+                        <li data-target="#carouselCidades"></li>
+                      </ol>
+                      
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <div class="">
+                            
+                            <div class="h-100 d-flex align-items-center justify-content-center">
+                              <div class="row">
+                                  <div class="col-sm">
+                                    <div class="container">
+                                      <div class="h-100 d-flex align-items-center justify-content-center mt-3">
+                                        Hoje           
+                                      </div>
+                                      <div class="h-100 d-flex align-items-center justify-content-center mb-1">
+                                       <p style="font-weight: bold">02/12</p>          
+                                     </div>
+                                      <a href="agendamento.html"> <button type="button" class="btn btn-outline-primary col-12 col-md-12 mb-2">13:00</button></a>
+                                    <a href="agendamento.html"> <button type="button" class="btn btn-outline-primary col-12 col-md-12 mb-2">14:00</button></a>
+                                    <a href="agendamento.html"> <button type="button" class="btn btn-outline-primary col-12 col-md-12 mb-2">15:00</button></a>
+                                    <a href="#"><button type="button" style="text-decoration-line: line-through;" class="btn btn-outline-danger col-12 col-md-12 mb-2" data-bs-toggle="modal" data-bs-target="#myModal">16:00</button></a>  
+                                    </div>
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                          
+                        </div>
+                        <div class="carousel-item">
+                          <div class="">
+                            <div class="h-100 d-flex align-items-center justify-content-center">
+                              <div class="row">
+                                  <div class="col-sm">
+                                    <div class="container">
+                                     <div class="h-100 d-flex align-items-center justify-content-center mt-3">
+                                       Amanhã           
+                                     </div>
+                                     <div class="h-100 d-flex align-items-center justify-content-center mb-1">
+                                      <p style="font-weight: bold">03/12</p>          
+                                    </div>
+                                    <a href="#"><button type="button" style="text-decoration-line: line-through;" class="btn btn-outline-danger col-12 col-md-12 mb-2" data-bs-toggle="modal" data-bs-target="#myModal">13:00</button></a>  
+                                    <a href="agendamento.html"> <button type="button" class="btn btn-outline-primary col-12 col-md-12 mb-2">14:00</button></a>
+                                    <a href="agendamento.html"> <button type="button" class="btn btn-outline-primary col-12 col-md-12 mb-2">15:00</button></a>
+                                    <a href="#"><button type="button" style="text-decoration-line: line-through;" class="btn btn-outline-danger col-12 col-md-12 mb-2" data-bs-toggle="modal" data-bs-target="#myModal">16:00</button></a>  
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="">
+                            <div class="h-100 d-flex align-items-center justify-content-center">
+                              <div class="row">
+                                  <div class="col-sm">
+                                    <div class="container">
+                                     <div class="h-100 d-flex align-items-center justify-content-center mt-3">
+                                     Domingo
+                                     </div>
+                                     <div class="h-100 d-flex align-items-center justify-content-center mb-1">
+                                      <p style="font-weight: bold">04/12</p>          
+                                    </div>
+                                    <a href="agendamento.html"> <button type="button" class="btn btn-outline-primary col-12 col-md-12 mb-2">13:00</button></a>
+                                    <a href="agendamento.html"> <button type="button" class="btn btn-outline-primary col-12 col-md-12 mb-2">14:00</button></a>
+                                    <a href="#"><button type="button" style="text-decoration-line: line-through;" class="btn btn-outline-danger col-12 col-md-12 mb-2" data-bs-toggle="modal" data-bs-target="#myModal">15:00</button></a>  
+                                    <a href="#"><button type="button" style="text-decoration-line: line-through;" class="btn btn-outline-danger col-12 col-md-12 mb-2" data-bs-toggle="modal" data-bs-target="#myModal">16:00</button></a>  
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                </div>
+         
+              </section>
+            </div>
+          </div>
+      </div>
+    </div>
+     
+       <div class="container mt-5 mb-5">
+         <div class="d-flex flex-column">
+           <div class="d-flex justify-content-center">
+             <div class="card" style="width:600px">
+               <img class="card-img-top mt-3" style="width:100px; border-radius: 50%;" src="img/avatar2.png" alt="Card image">
+               <div class="card-body">
+                 <h4 class="card-title">Nome</h4>
+                 <h5 class="card-text">Especialidade</h5>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star"></span>
+                 <p class="card-text mt-5">Av. Habib Gabriel, 1360 - Jardim Buscardi, Matão - SP</p>
+               </div>
+             </div>
+             <div class="card" style="width:400px">
+               
+               <section class="h-100 d-flex align-items-center justify-content-center">
+                 <a class="carousel-control-prev" href="#carouselCidades1" role="button" data-slide="prev">
+                   <span class="carousel-control-prev-icon" style="background-color: black; " aria-hidden="true"></span>
+                 </a>
+                 <a class="carousel-control-next" href="#carouselCidades1" role="button" data-slide="next">
+                   <span class="carousel-control-next-icon" style="background-color: black;" aria-hidden="true"></span>
+                 </a>
+                 <div class="row ">
+       
+                   <div class="col-12 p-0">
+                     <div id="carouselCidades1" data-interval="false" class="carousel slide" data-ride="carousel">
+                       <ol class="carousel-indicators">
+                         <li data-target="#carouselCidades1" class="active"></li>
+                         <li data-target="#carouselCidades1"></li>
+                         <li data-target="#carouselCidades1"></li>
+                       </ol>
+                       
+                       <div class="carousel-inner">
+                         <div class="carousel-item active">
+                           <div class="">
+                             
+                             <div class="h-100 d-flex align-items-center justify-content-center">
+                               <div class="row">
+                                   <div class="col-sm">
+                                     <div class="container">
+                                       <div class="h-100 d-flex align-items-center justify-content-center mt-3">
+                                         Hoje           
+                                       </div>
+                                       <div class="h-100 d-flex align-items-center justify-content-center mb-1">
+                                        <p style="font-weight: bold">02/12</p>          
+                                      </div>
+                                       <a href="agendamento.html"> <button type="button" class="btn btn-outline-primary col-12 col-md-12 mb-2">13:00</button></a>
+                                     <a href="agendamento.html"> <button type="button" class="btn btn-outline-primary col-12 col-md-12 mb-2">14:00</button></a>
+                                     <a href="agendamento.html"> <button type="button" class="btn btn-outline-primary col-12 col-md-12 mb-2">15:00</button></a>
+                                     <a href="#"><button type="button" style="text-decoration-line: line-through;" class="btn btn-outline-danger col-12 col-md-12 mb-2" data-bs-toggle="modal" data-bs-target="#myModal">16:00</button></a>  
+                                     </div>
+                                   </div>
+                                 </div>
+                               </div>
+                           </div>
+                         </div>
+                         <div class="carousel-item">
+                           <div class="">
+                             <div class="h-100 d-flex align-items-center justify-content-center">
+                               <div class="row">
+                                   <div class="col-sm">
+                                     <div class="container">
+                                      <div class="h-100 d-flex align-items-center justify-content-center mt-3">
+                                        Amanhã           
+                                      </div>
+                                      <div class="h-100 d-flex align-items-center justify-content-center mb-1">
+                                       <p style="font-weight: bold">03/12</p>          
+                                     </div>
+                                     <a href="#"><button type="button" style="text-decoration-line: line-through;" class="btn btn-outline-danger col-12 col-md-12 mb-2" data-bs-toggle="modal" data-bs-target="#myModal">13:00</button></a>  
+                                     <a href="agendamento.html"> <button type="button" class="btn btn-outline-primary col-12 col-md-12 mb-2">14:00</button></a>
+                                     <a href="agendamento.html"> <button type="button" class="btn btn-outline-primary col-12 col-md-12 mb-2">15:00</button></a>
+                                     <a href="#"><button type="button" style="text-decoration-line: line-through;" class="btn btn-outline-danger col-12 col-md-12 mb-2" data-bs-toggle="modal" data-bs-target="#myModal">16:00</button></a>  
+                                     </div>
+                                   </div>
+                                 </div>
+                               </div>
+                           </div>
+                         </div>
+                         <div class="carousel-item">
+                           <div class="">
+                             <div class="h-100 d-flex align-items-center justify-content-center">
+                               <div class="row">
+                                   <div class="col-sm">
+                                     <div class="container">
+                                      <div class="h-100 d-flex align-items-center justify-content-center mt-3">
+                                      Domingo
+                                      </div>
+                                      <div class="h-100 d-flex align-items-center justify-content-center mb-1">
+                                       <p style="font-weight: bold">04/12</p>          
+                                     </div>
+                                     <a href="agendamento.html"> <button type="button" class="btn btn-outline-primary col-12 col-md-12 mb-2">13:00</button></a>
+                                     <a href="agendamento.html"> <button type="button" class="btn btn-outline-primary col-12 col-md-12 mb-2">14:00</button></a>
+                                     <a href="#"><button type="button" style="text-decoration-line: line-through;" class="btn btn-outline-danger col-12 col-md-12 mb-2" data-bs-toggle="modal" data-bs-target="#myModal">15:00</button></a>  
+                                     <a href="#"><button type="button" style="text-decoration-line: line-through;" class="btn btn-outline-danger col-12 col-md-12 mb-2" data-bs-toggle="modal" data-bs-target="#myModal">16:00</button></a>  
+                                     </div>
+                                   </div>
+                                 </div>
+                               </div>
+                           </div>
+                         </div>
+                       
+                     </div>
+                   </div>
+                 </div>
+                 </div>
+          
+               </section>
+             </div>
+           </div>
+       </div>
+     </div>
+     </main>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+       <div class="modal" id="myModal">
+         <div class="modal-dialog">
+           <div class="modal-content">
+             <div class="modal-header">
+               <h4 class="modal-title" style="text-align: center">Horário Indisponível</h4>
+               <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+             </div>
+             <div class="modal-body">
+               <div class="d-flex justify-content-center align-items-center">
+                 <p>Não foi possível agendar uma consulta nesse horário.
+                  Escolhe outro horáriou ou outro especialista.</p>
+               </div>
+               <div class="d-flex justify-content-center">
+                 <img src="img/erro.png" style="width: 100px" alt="Sucesso">
+               </div>
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-primary" data-bs-dismiss="modal"><a href="2-resultado.html" style="color: white; text-decoration: none;" >Voltar</a></button>
+             </div>
+     
+           </div>
+         </div>
+       </div>
+     
+   
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="container-fluid">
+        <footer
+                class="text-center text-lg-start text-white"
+                style="background-color: #48bbc6">
+          <div class="container p-4 pb-0">
+            <section class="">
+              <div class="row">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">
+                    QUEM SOMOS
+                  </h6>
+                  <p>
+                    CONSULTÁGIL - Empresa de desenvolvimento de softwares na área da saúde.
+                  </p>
+                </div>
+                <hr class="w-100 clearfix d-md-none" />
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold"></h6>
+                  <p>
+                    <a class="text-white">Termos e Condições</a>
+                  </p>
+                  <p>
+                    <a class="text-white">Política de Privacidade</a>
+                  </p>
+                  <p>
+                    <a class="text-white">Protocolo COVID 2022</a>
+                  </p>
+                </div>
+                <hr class="w-100 clearfix d-md-none" />
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">
+                    Links Úteis
+                  </h6>
+                  <p>
+                    <a class="text-white" href="1-pesquisa.html">Página Inicial</a>
+                  </p>
+                  <p>
+                    <a class="text-white" href="Especialistas.html">Especialidades</a>
+                  </p>
+                  <p>
+                    <a class="text-white" href="medico.html">Registre-se como especialista</a>
+                  </p>
+                  <p>
+                    <a class="text-white" href="paciente.html">Registre-se como paciente</a>
+                  </p>
+                  <p>
+                    <a class="text-white">Ajuda</a>
+                  </p>
+                </div>
+                <hr class="w-100 clearfix d-md-none" />
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Contato</h6>
+                  <p>Avenida Habib Gabriel, 1360 - Bairro Residencial Olívio Benassi -  Matão/SP - CEP 15990-539 </p>
+                  <p>grupo4fatecmatao@gmail.com</p>
+                  <p>(16) 3384-5847</p>
+                </div>
+              </div>
+            </section>
+            <hr class="my-3">
+            <section class="p-3 pt-0">
+              <div class="row d-flex align-items-center">
+                <div class="col-md-7 col-lg-8 text-center text-md-start">
+                  <div class="p-3">
+                    © 2022 Copyright:
+                    <a class="text-white" href="1-pesquisa.html">ConsultÁgil</a>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </footer>
+      </div>
+      <script src="script/jquery-3.2.1.slim.min.js"></script>
+      <script src="script/popper.min.js"></script>
+      <script src="script/bootstrap.js"></script>
+      <script src="script/app.js"></script>
+        </body>    
+      </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+     
+
+
+
+
+
+
+      
